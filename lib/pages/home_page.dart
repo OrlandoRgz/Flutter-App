@@ -59,7 +59,7 @@ class HomePage extends StatelessWidget{
               onTap: () {
                 Navigator.pushNamed(context, '/pageview');
               },
-              leading: const Icon(Icons.radio_button_checked_rounded),
+              leading: const Icon(Icons.add_circle_outlined),
               trailing: const Icon(Icons.arrow_forward_ios_outlined),
               title: const Text('Page view'),
               subtitle: const Text('Se utiliza para hacer un scroll horizontal en forma de pagina'),
@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget{
               onTap: () {
                 Navigator.pushNamed(context, '/gridView');
               },
-              leading: const Icon(Icons.radio_button_checked_rounded),
+              leading: const Icon(Icons.add_photo_alternate_outlined),
               trailing: const Icon(Icons.arrow_forward_ios_outlined),
               title: const Text('Grid View'),
               subtitle: const Text('Se utiliza para hacer un scroll vertical en forma de pagina'),
@@ -77,15 +77,13 @@ class HomePage extends StatelessWidget{
               onTap: () {
                 Navigator.pushNamed(context, '/contador');
               },
-              leading: const Icon(Icons.radio_button_checked_rounded),
+              leading: const Icon(Icons.add_box),
               trailing: const Icon(Icons.arrow_forward_ios_outlined),
               title: const Text('Contador'),
               subtitle: const Text('Se utiliza para hacer un scroll vertical en forma de pagina'),
             ),  
 
           ]
-          
-          
       ),          
       ),  
     );
